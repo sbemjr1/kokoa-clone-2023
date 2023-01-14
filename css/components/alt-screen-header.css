@@ -1,29 +1,27 @@
-.status-bar {
+.alt-header {
   display: flex;
+  padding: var(--horizontal-space);
+  padding-top: 40px;
+  align-items: center;
   justify-content: center;
-  padding: 5px 3px;
   position: fixed;
-  top: 0px;
   width: 100%;
   box-sizing: border-box;
+  z-index: 2;
   background-color: white;
-  z-index: 3;
 }
-.status-bar__column {
+.alt-header__column {
   width: 33%;
 }
-.status-bar__column:first-child span {
+.alt-header__column:first-child span {
   margin-right: 5px;
 }
-.status-bar__column:nth-child(2) {
+.alt-header__column:nth-child(2) {
   display: flex;
   justify-content: center;
 }
-.status-bar__column:last-child {
+.alt-header__column:last-child {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-.status-bar__column .fa-battery-full {
-  margin: 0px 5px;
 }

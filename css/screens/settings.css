@@ -1,0 +1,26 @@
+.settings-setting span {
+  font-size: 25px;
+}
+.settings-setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0px;
+}
+.settings-setting:last-child {
+  border: none;
+}
+.settings-setting i {
+  margin-right: 10px;
+}
+.settings-setting > span {
+  font-size: 20px;
+  opacity: 0.4;
+}
+.settings-divider {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 20px 0px;
+}
