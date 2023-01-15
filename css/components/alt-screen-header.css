@@ -13,9 +13,6 @@
 .alt-header__column {
   width: 33%;
 }
-.alt-header__column:first-child span {
-  margin-right: 5px;
-}
 .alt-header__column:nth-child(2) {
   display: flex;
   justify-content: center;

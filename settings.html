@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Settings - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="settings-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -25,7 +25,7 @@
 
     <header class="alt-header">
       <div class="alt-header__column">
-        <i class="fa-solid fa-chevron-left fa-2x"></i>
+        <a href="more.html"> <i class="fa-solid fa-chevron-left fa-2x"></i></a>
       </div>
       <div class="alt-header__column">
         <h1 class="screen-header__title">Settings</h1>
@@ -133,31 +133,7 @@
       </ul>
     </main>
 
-    <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav__btn">
-          <a class="nav__link" href="friends.html"
-            ><i class="fa-regular fa-user fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="fa-regular fa-comment fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="find.html"
-            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
-          ></a>
-        </li>
-        <li class="nav__btn">
-          <a class="nav__link" href="more.html"
-            ><i class="fa-solid fa-ellipsis fa-2x"></i
-          ></a>
-        </li>
-      </ul>
-    </nav>
+    <div id="no-mobile"><span>Your screen so too Big</span></div>
 
     <script
       src="https://kit.fontawesome.com/11de28f2c5.js"

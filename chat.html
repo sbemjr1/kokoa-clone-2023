@@ -25,7 +25,7 @@
 
     <header class="alt-header alt-header__chat">
       <div class="alt-header__column">
-        <i class="fa-solid fa-chevron-left fa-lg"></i>
+        <a href="more.html"> <i class="fa-solid fa-chevron-left fa-lg"></i></a>
       </div>
       <div class="alt-header__column">
         <h1 class="screen-header__title">LEE</h1>
@@ -38,7 +38,7 @@
 
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Saturday, January 14, 2023</div>
-      <div class="message-row">
+      <div class="message-row message-default">
         <img class="user-component__avartar" src="img/sbemjr1@naver(0).jpg" />
         <div class="message-row__content">
           <span class="message-author">LEE</span>
@@ -57,6 +57,21 @@
         </div>
       </div>
     </main>
+
+    <form class="reply">
+      <div class="reply_column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply_column">
+        <input placeholder="Write a message..." type="text" />
+        <i class="fa-regular fa-face-smile"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile"><span>Your screen so too Big</span></div>
 
     <script
       src="https://kit.fontawesome.com/11de28f2c5.js"

@@ -1,3 +1,6 @@
+#settings-screen {
+  height: 115vh;
+}
 .settings-setting span {
   font-size: 25px;
 }
